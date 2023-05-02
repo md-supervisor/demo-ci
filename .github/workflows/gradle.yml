@@ -17,8 +17,15 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  message:
+    runs-on: ubuntu-latest
 
+    steps:
+    - name: Hello
+      run: echo Hello there!!
+
+  build:
+    if: false
     runs-on: ubuntu-latest
 
     steps:
