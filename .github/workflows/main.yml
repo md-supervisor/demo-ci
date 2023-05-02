@@ -20,3 +20,5 @@ jobs:
       run: sudo apt update
     - name: Install JDK
       run: sudo apt install -y default-jdk
+    - name: Show Java Version
+      run: java -version
