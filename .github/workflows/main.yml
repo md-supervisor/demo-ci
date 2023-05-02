@@ -18,3 +18,5 @@ jobs:
       run: echo Hello there!!!
     - name: Update Package Manager
       run: sudo apt update
+    - name: Install JDK
+      run: sudo apt install -y default-jdk
