@@ -16,4 +16,5 @@ jobs:
     steps:
     - name: Hello
       run: echo Hello there!!!
-      
+    - name: Update Package Manager
+      run: apt update
