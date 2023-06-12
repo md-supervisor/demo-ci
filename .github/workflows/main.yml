@@ -30,5 +30,7 @@ jobs:
       run: git clone https://github.com/md-supervisor/demo-ci.git
     - name: Show directory content again
       run: ls
+    - name: Change directory
+      run: cd demo-ci
     - name: Show build.gradle
       run: cat build.gradle
