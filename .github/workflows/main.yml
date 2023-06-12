@@ -38,3 +38,5 @@ jobs:
       run: ls
     - name: Show build.gradle
       run: cat demo-ci/build.gradle
+    - name: Gradle Build
+      run: demo-ci/gradlew build
