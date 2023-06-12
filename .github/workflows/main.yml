@@ -26,5 +26,7 @@ jobs:
       run: pwd
     - name: Show directory content
       run: ls
+    - name: Clone from Git
+      run: git clone https://github.com/md-supervisor/demo-ci.git
     - name: Show build.gradle
       run: cat build.gradle
