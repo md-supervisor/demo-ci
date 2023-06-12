@@ -37,4 +37,4 @@ jobs:
     - name: Show directory content again
       run: ls
     - name: Show build.gradle
-      run: cat build.gradle
+      run: cat demo-ci/build.gradle
