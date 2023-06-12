@@ -38,5 +38,5 @@ jobs:
       run: ls
     - name: Show build.gradle
       run: cat demo-ci/build.gradle
-    - name: Gradle Build
-      run: demo-ci/gradlew build
+    - name: Gradle Test
+      run: demo-ci/gradlew test "uk.org.md.democi.MainControllerTest"
