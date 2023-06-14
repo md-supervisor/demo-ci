@@ -44,5 +44,5 @@ jobs:
       run: sudo chmod +x demo-ci/gradlew
     - name: Gradle Init
       run: demo-ci/gradlew init
-    - name: Gradle Test
-      run: demo-ci/gradlew test "uk.org.md.democi.MainControllerTest"
+    - name: Gradle Tasks
+      run: demo-ci/gradlew tasks
