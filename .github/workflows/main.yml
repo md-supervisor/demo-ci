@@ -26,6 +26,8 @@ jobs:
       run: pwd
     - name: Show directory content
       run: ls
+    #- name: Code Checkout
+    #  uses: actions/checkout@v2
     - name: Clone from Git
       run: git clone https://github.com/md-supervisor/demo-ci.git
     - name: Show directory name
@@ -38,5 +40,7 @@ jobs:
       run: ls
     - name: Show build.gradle
       run: cat demo-ci/build.gradle
+    - name: Gradle Permissions
+      run: sudo chmod +x demo-ci/gradlew
     - name: Gradle Test
       run: demo-ci/gradlew test "uk.org.md.democi.MainControllerTest"
