@@ -42,5 +42,7 @@ jobs:
       run: cat demo-ci/build.gradle
     - name: Gradle Permissions
       run: sudo chmod +x demo-ci/gradlew
+    - name: Gradle Init
+      run: demo-ci/gradlew init
     - name: Gradle Test
       run: demo-ci/gradlew test "uk.org.md.democi.MainControllerTest"
