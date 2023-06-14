@@ -52,5 +52,5 @@ jobs:
       run: demo-ci/gradlew build
     - name: Gradle Tasks
       run: demo-ci/gradlew tasks
-    - name: Gradle Test
-      run: demo-ci/gradlew test
+    #- name: Gradle Test
+    #  run: demo-ci/gradlew test
